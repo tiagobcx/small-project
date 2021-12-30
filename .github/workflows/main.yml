@@ -12,7 +12,7 @@ jobs:
         with:
           project_name: ast-dsvw-tester
           base_uri: https://ast-master.dev.cxast.net/
-          branch: ${{ github.base_ref	}}
+          branch: ${{ github.head_ref }}
           cx_tenant: galactica
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
