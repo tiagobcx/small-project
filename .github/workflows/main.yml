@@ -10,7 +10,7 @@ jobs:
       - name: Checkmarx AST CLI Action
         uses: checkmarxDev/ast-github-action@master #Github Action version
         with:
-          project_name: ast-dsvw-tester
+          project_name: small-project
           base_uri: https://ast-master.dev.cxast.net/
           branch: ${{ github.head_ref }}
           cx_tenant: galactica
